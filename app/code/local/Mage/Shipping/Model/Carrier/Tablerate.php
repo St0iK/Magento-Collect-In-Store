@@ -277,7 +277,10 @@ class Mage_Shipping_Model_Carrier_Tablerate
         return array('bestway' => $this->getConfigData('name'));
     }
 
-
+    /**
+     * Processing additional validation to check is carrier applicable.
+     * 
+     */
     public function proccessAdditionalValidation(Mage_Shipping_Model_Rate_Request $request)
     {
         //get all items in the cart
@@ -289,7 +292,6 @@ class Mage_Shipping_Model_Carrier_Tablerate
             $product= Mage::getModel('catalog/product')->load($product->getId());
             // if product has been set for collection only,
             // disable Table Rate shipping method
-            
             if($product->getData('collect_in_store_only') == 1){
                 return false;
             }

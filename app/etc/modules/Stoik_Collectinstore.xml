@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <modules>
+        <Stoik_Collectinstore>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Stoik_Collectinstore>
+    </modules>
+</config>

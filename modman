@@ -1,0 +1,9 @@
+#
+# Stoik_Collectinstore modman file
+#
+
+app/etc/modules/Stoik_Collectinstore.xml app/etc/modules/Stoik_Collectinstore.xml
+
+app/code/local/Stoik/Collectinstore app/code/local/Stoik/Collectinstore
+
+app/code/local/Mage/Shipping/Model/Carrier/Tablerate.php app/code/local/Mage/Shipping/Model/Carrier/Tablerate.php

@@ -13,6 +13,9 @@ to be marked as 'Collect in store' only.
 - Adds a new attribute on products
 - Adds a new attribute on categories
 
+![Adds a new attribute on products](http://i.imgur.com/2aalj1n.png)
+
+
 How to use
 -------------
 Copy the files to appropriate locations on your Magento installation or use modman.

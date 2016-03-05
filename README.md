@@ -1,6 +1,7 @@
 Magento | Collect In store
 ============================
-Make it impossible for product or a category of product to be availiable only for Collect in Store.
+Make it impossible for productto be available only for Collect in Store.
+This setting can by applied on individual products or a category of products.
 
 Can be used with [Collect In Store Checkout Shipping Option](https://www.magentocommerce.com/magento-connect/collect-in-store-checkout-shipping-option.html)
 
